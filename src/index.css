@@ -1,13 +1,143 @@
-body {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/*Navbar*/
+#title {
+  margin-left: 12px;
+  color: rgb(16, 187, 158);
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 1px 1px 2px white;
+  text-decoration: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.mid{
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+
+.contact{
+  text-decoration: none;
+  margin-right: 5px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(109, 182, 206);
+}
+
+
+.active {
+  color: rgb(133, 32, 201);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.noActive{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+/*----------------------------------------------------------------------*/
+.center-img {
+  width: 50% !important;
+  margin: auto !important;
+}
+
+audio {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.container {
+  min-height: 85vh !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  margin-right: 1rem;
+  text-decoration:none;
+}
+
+h2{
+  font-family: 'Abril Fatface', cursive;
+}
+
+.topsongs{
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(3, 60, 247);
+}
+
+.img-contact > img {
+  width: 2rem;
+}
+.text-contact {
+  font-size: 17px;
+  margin-top: 3px;
+}
+
+.hide {
+  display: none !important;
+}
+
+.card:hover {
+  margin: 10px;
+  box-shadow: 0px 0px 10px 2px #363636;
+}
+.card-img-top{
+  height: 100px;
+  background-color: rgba(224, 224, 224, 0.604)
+}
+
+/*form------------------------------------------------------------*/
+
+.error{
+  color: red;
+  font-weight: bold;
+}
+.terms{
+  color: rgb(181, 111, 228);
 }
