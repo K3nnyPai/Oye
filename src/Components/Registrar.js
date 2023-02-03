@@ -40,7 +40,7 @@ export default function Registrar() {
                 console.log(data);
                 alert("Usuario registrado!");
                 formik.resetForm();
-                window.location.href = "http://localhost:3000";
+                window.location.href = "https://k3nnyoye.netlify.app";
             } else {
                 alert("Debes aceptar los términos y condiciones para continuar.");
             }

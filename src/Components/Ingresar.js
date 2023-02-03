@@ -23,7 +23,7 @@ export default function ingresar() {
                 console.log(data);
                 alert("Usuario Ingresado!");
                 formik.resetForm();
-                window.location.href = "http://localhost:3000";
+                window.location.href = "https://k3nnyoye.netlify.app";
         }
     });
 
