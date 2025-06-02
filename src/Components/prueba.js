@@ -1,7 +1,7 @@
 function BADfunction() {
     var a = 10
     var b = "20"
-    if(a = b){
+    if (a === b) {
         alert("a is equal to b")
     }
     for(i=0;i<10;i++){
