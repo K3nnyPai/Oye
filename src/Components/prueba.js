@@ -1,3 +1,8 @@
+/**
+ * Demonstrates several unsafe and error-prone JavaScript practices, including assignment in conditionals, improper closure handling in loops, and use of `eval`.
+ *
+ * @remark This function is intentionally written with bad practices and should not be used in production code.
+ */
 function BADfunction() {
     var a = 10
     var b = "20"
