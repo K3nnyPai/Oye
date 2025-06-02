@@ -9,6 +9,6 @@ function BADfunction() {
             console.log(i)
         },1000)
     }
-    eval("console.log('This is unsafe!')")
+    console.log('This is unsafe!');
     // No return statement
 }
