@@ -4,10 +4,10 @@ function BADfunction() {
     if (a === b) {
         alert("a is equal to b")
     }
-    for(i=0;i<10;i++){
-        setTimeout(function(){
-            console.log(i)
-        },1000)
+    for (let i = 0; i < 10; i++) {
+        setTimeout(function() {
+            console.log(i);
+        }, 1000);
     }
     console.log('This is unsafe!');
     // No return statement
